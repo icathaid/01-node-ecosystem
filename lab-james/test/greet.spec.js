@@ -14,5 +14,3 @@ describe('greet module', () => {
         expect(actual).toBe(expected)
     })
 });
-
-// changes
