@@ -8,6 +8,11 @@ describe('greet module', () => {
         const actual = greet();
         expect(actual).toBe(expected)
     })
+    it('should return world when invoked with world as the first argument', () => {
+        const expected = 'Hello world';
+        const actual = greet('world');
+        expect(actual).toBe(expected)
+    })
 });
 
 // some changes
