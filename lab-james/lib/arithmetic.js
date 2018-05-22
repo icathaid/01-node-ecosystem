@@ -1,11 +1,30 @@
 'use strict';
 module.exports = {
-  summerator: () => {
-    console.log('it worked');
-    return 42;
+  summerator: (a, b) => {
+    if(isNaN(a)){
+      return null;
+    }
+    if(isNaN(b)){
+      return null;
+    }
+    if(a === null || b === null){
+      return null;
+    }
+    return a + b;
   },
-  subtractifier: () => {
-    console.log('it also worked');
-    return 16;
+  subtractifier: (a, b) => {
+    if(isNaN(a)){
+      return null;
+    }
+    if(isNaN(b)){
+      return null;
+    }
+    if(a === undefined || b === undefined){
+      return null;
+    }
+    if(a === null || b === null){
+      return null;
+    }
+    return a - b;
   },
 };
