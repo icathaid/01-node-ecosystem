@@ -13,3 +13,6 @@ describe('arithmetic module', () => {
     expect(actual).toEqual(expected);
   });
 });
+
+
+//  write separate test suite for subtraction module
