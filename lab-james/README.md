@@ -48,3 +48,8 @@ Create a NodeJS module in the `lib` directory named `arithmetic.js`. This module
 
 ### Documentation
 In your README.md file, describe the exported values of each module defined in your `lib` directory. Every function description should include it's airty (expected number of parameters), the expected data for each parameter (data-type and limitations), and the expected output behavior (for both valid and invalid use). Feel free to include any additional information that you would like.
+
+
+
+https://www.sitepoint.com/understanding-module-exports-exports-node-js/
+https://stackoverflow.com/questions/504803/how-do-you-create-a-method-for-a-custom-object-in-javascript
